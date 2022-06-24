@@ -1,0 +1,28 @@
+:root {
+    --strong-cyan: hsl(172, 67%, 45%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --dark-grayish-cyan-two: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --white: hsl(0, 0%, 100%);
+  
+    --font-spacemonoreg: "Space Mono";
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background: var(--light-grayish-cyan);
+    font-family: var(--font-spacemonoreg);
+  }
+.main-heading h1{
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--very-dark-cyan);
+    letter-spacing: 8px;
+    margin-top: 200px;
+}
