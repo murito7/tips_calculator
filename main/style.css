@@ -46,11 +46,18 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
 }
 label{
     font-size: 18px;
     color: var(--dark-grayish-cyan);
     font-weight: bold;
+}
+#error{
+  position: absolute;
+  right: 0;
+  color: red;
+  font-weight: 700;
 }
 .left input[type="number"] {
     background-image: url("./images/icon-dollar.svg");
