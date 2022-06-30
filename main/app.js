@@ -88,7 +88,7 @@ function handleReset() {
   input.value = 0.0;
   validateBill();
 
-  button[2].click();
+  button[1].click();
   people.value = 1;
   setPeopleVal();
 }
